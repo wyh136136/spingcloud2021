@@ -1,0 +1,22 @@
+server:
+  port: 80
+spring:
+  application:
+    name: cloud-orderfeign-service
+eureka:
+  client:
+    register-with-eureka: false #是否将自己注册到 Eureka-Server 中，默认的为 true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+##openfeign的超时控制
+ribbon:
+  #建立连接所用的时间  适用于网络正常的情况下
+  ReadTimeout: 5000
+  #建立连接后 从服务器读取到可取资源的时间
+  ConnectTimeout: 5000
+#开启日志打印
+logging:
+  level:
+    #Feign日志以什么级别监控哪个接口
+    com.wyh.springcloud.service.PaymentFeignService: debug
+

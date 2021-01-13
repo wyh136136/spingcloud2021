@@ -1,0 +1,23 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-order-hystrix
+
+eureka:
+  client:
+    register-with-eureka: true #是否将自己注册到 Eureka-Server 中，默认的为 true
+    fetch-registry: true #是否需要拉取服务信息，默认未true
+    service-url:
+      # 设置与 Eureka Server 交互的地址
+      defaultZone: http://localhost:7001/eureka/
+#      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+# 用于服务降级 在注解@FeignClient 中添加 fallback 属性值
+feign:
+  hystrix:
+    enabled: true   # 在feign中开启 hystrix
+
+
+
+
