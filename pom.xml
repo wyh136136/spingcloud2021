@@ -22,6 +22,9 @@
       <module>cloud-hystrix-dashboard9001</module>
       <module>cloud-gateway-gateway9527</module>
       <module>cloud-config-center3344</module>
+      <module>cloud-config-client-3355</module>
+    <module>cloud-config-client-3366</module>
+    <module>cloud-stream-rabbitmq-provider8801</module>
   </modules>
   <!-- 第一步 -->
   <packaging>pom</packaging>

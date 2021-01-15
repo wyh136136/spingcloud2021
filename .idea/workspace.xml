@@ -96,6 +96,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29651862" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ReactorSettings">
@@ -103,11 +106,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\cloud2021\cloud-config-client-3366\src\main\resources" />
       <recent name="E:\project\cloud2021\cloud-config-center3344\src\main\resources" />
       <recent name="E:\project\cloud2021\cloud-gateway-gateway9527\src\main\resources" />
       <recent name="E:\project\cloud2021\cloud-hystrix-dashboard9001\src\main\resources" />
       <recent name="E:\project\cloud2021\cloud-customer-feign-hystrix-order80\src\main\resources" />
-      <recent name="E:\project\cloud2021\cloud-provider-hystrix-payment8001\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\project\cloud2021\cloud-eureka-server7001\src\main\resources" />
@@ -132,7 +135,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigCenterMain3344">
+  <component name="RunManager" selected="Spring Boot.ConfigClient3355">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="cloud-gateway-gateway9527" />
@@ -140,13 +143,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,6 +165,26 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.ConfigClient3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.ConfigClient3366" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,6 +236,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HystrixDashboard9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.HystrixDashboard9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Order80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-customer-feign-hystrix-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.Order80" />
@@ -225,14 +257,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrix8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentHystrix8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wyh.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.PaymentHystrix8001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -269,18 +295,21 @@
       <item itemvalue="Spring Boot.PaymentMain8002" />
       <item itemvalue="Spring Boot.PaymentMain8004" />
       <item itemvalue="Spring Boot.Order80" />
+      <item itemvalue="Spring Boot.HystrixDashboard9001" />
+      <item itemvalue="Spring Boot.PaymentHystrix8001" />
+      <item itemvalue="Spring Boot.ConfigClient3366" />
       <item itemvalue="Spring Boot.GatewayMain9527" />
       <item itemvalue="Spring Boot.EurekaServerMain7001" />
-      <item itemvalue="Spring Boot.PaymentHystrix8001" />
       <item itemvalue="Spring Boot.ConfigCenterMain3344" />
+      <item itemvalue="Spring Boot.ConfigClient3355" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClient3355" />
         <item itemvalue="Spring Boot.ConfigCenterMain3344" />
         <item itemvalue="Spring Boot.EurekaServerMain7001" />
         <item itemvalue="Spring Boot.GatewayMain9527" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Spring Boot.PaymentHystrix8001" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +360,8 @@
       <workItem from="1610440783858" duration="6551000" />
       <workItem from="1610505733863" duration="578000" />
       <workItem from="1610506378128" duration="561000" />
-      <workItem from="1610507009355" duration="8628000" />
+      <workItem from="1610507009355" duration="23287000" />
+      <workItem from="1610691981862" duration="3304000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1610507895828</created>
@@ -380,6 +410,7 @@
       <path value="$PROJECT_DIR$/../../git_workspace/springcloud-study" />
       <path value="$PROJECT_DIR$/../springcloud2021" />
       <path value="$PROJECT_DIR$/cloud-api-commons" />
+      <path value="$PROJECT_DIR$/springcloud-study" />
     </ignored-roots>
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
