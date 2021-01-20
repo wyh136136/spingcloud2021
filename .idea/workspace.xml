@@ -59,7 +59,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:\Apache\apache-maven-3.6.1" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Apache/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="E:\Apache\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -88,7 +88,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-nacos-config3377/src/main/resources/bootstrap.yml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,18 +99,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29651862" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\cloud2021\cloudalibaba-customer-order80\src\main\resources" />
+      <recent name="E:\project\cloud2021\cloud-stream-rabbitmq-consumer8803\src\main\resources" />
       <recent name="E:\project\cloud2021\cloud-config-client-3366\src\main\resources" />
       <recent name="E:\project\cloud2021\cloud-config-center3344\src\main\resources" />
       <recent name="E:\project\cloud2021\cloud-gateway-gateway9527\src\main\resources" />
-      <recent name="E:\project\cloud2021\cloud-hystrix-dashboard9001\src\main\resources" />
-      <recent name="E:\project\cloud2021\cloud-customer-feign-hystrix-order80\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\project\cloud2021\cloud-eureka-server7001\src\main\resources" />
@@ -119,6 +119,7 @@
       <recent name="E:\project\cloud2021\cloud-provider-payment8001\src\main\java\com\wyh\springcloud\dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wyh.springcloud.controller" />
       <recent name="com.wyh.springcloud.dao" />
       <recent name="com.wyh.springcloud" />
     </key>
@@ -135,14 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClient3355">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="cloud-gateway-gateway9527" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.CloudAlibabaConfigMain3377">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -156,27 +150,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-center3344" />
+    <configuration name="AlibabaPayment9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-provider-payment9001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wyh.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.AlibabaPayment9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudAlibabaConfigMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-nacos-config3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.CloudAlibabaConfigMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-center3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.ConfigCenterMain3344" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigClient3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigClient3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client-3355" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wyh.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.ConfigClient3355" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,14 +231,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GatewayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway-gateway9527" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wyh.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.GatewayMain9527" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,6 +241,26 @@
     <configuration name="HystrixDashboard9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-hystrix-dashboard9001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.HystrixDashboard9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageRes8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.MessageRes8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Order80 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-customer-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.Order80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,8 +307,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamProvider8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wyh.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wyh.springcloud.StreamProvider8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.CustomerFeignMain80" />
       <item itemvalue="Spring Boot.CustomerOrder80" />
       <item itemvalue="Spring Boot.EurekaServerMain7002" />
@@ -300,16 +334,21 @@
       <item itemvalue="Spring Boot.ConfigClient3366" />
       <item itemvalue="Spring Boot.GatewayMain9527" />
       <item itemvalue="Spring Boot.EurekaServerMain7001" />
+      <item itemvalue="Spring Boot.StreamProvider8801" />
       <item itemvalue="Spring Boot.ConfigCenterMain3344" />
+      <item itemvalue="Spring Boot.AlibabaPayment9001" />
       <item itemvalue="Spring Boot.ConfigClient3355" />
+      <item itemvalue="Spring Boot.Order80 (1)" />
+      <item itemvalue="Spring Boot.MessageRes8802" />
+      <item itemvalue="Spring Boot.CloudAlibabaConfigMain3377" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigClient3355" />
-        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
+        <item itemvalue="Spring Boot.CloudAlibabaConfigMain3377" />
+        <item itemvalue="Spring Boot.Order80 (1)" />
+        <item itemvalue="Spring Boot.AlibabaPayment9001" />
+        <item itemvalue="Spring Boot.StreamProvider8801" />
         <item itemvalue="Spring Boot.EurekaServerMain7001" />
-        <item itemvalue="Spring Boot.GatewayMain9527" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -362,6 +401,8 @@
       <workItem from="1610506378128" duration="561000" />
       <workItem from="1610507009355" duration="23287000" />
       <workItem from="1610691981862" duration="3304000" />
+      <workItem from="1610929415214" duration="8799000" />
+      <workItem from="1611036890954" duration="15784000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1610507895828</created>

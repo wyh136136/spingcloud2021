@@ -17,8 +17,13 @@
         <module name="cloud-customer-openfeign-order80" />
         <module name="cloud-customer-feign-hystrix-order80" />
         <module name="cloud-eureka-server7002" />
+        <module name="cloudalibaba-nacos-config3377" />
         <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloudalibaba-customer-order80" />
         <module name="cloud-customerzk-order80" />
+        <module name="cloudalibaba-provider-payment9001" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-hystrix-dashboard9001" />
         <module name="cloud-provider-hystrix-payment8001" />

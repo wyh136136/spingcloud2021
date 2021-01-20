@@ -17,6 +17,6 @@ public class IMessageProviderImpl implements IMessageProvider {
         String s = UUID.randomUUID().toString();
         output.send(MessageBuilder.withPayload(s).build());
         System.out.println("ssssss====="+s);
-        return "";
+        return s;
     }
 }
